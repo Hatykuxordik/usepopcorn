@@ -238,5 +238,3 @@ function WatchedMovie({ movie }) {
     </li>
   );
 }
-
-function
