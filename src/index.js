@@ -8,7 +8,7 @@ import StarRating from "./StarRating";
 //   const [movieRating, setMovieRating] = useState(0);
 //   return (
 //     <div>
-//       <StarRating color="blue" maxLength={8} onSetRating={setMovieRating} />
+//       <StarRating color="blue" maxRating={8} onSetRating={setMovieRating} />
 //       <p>The movie was rated {movieRating} star</p>
 //     </div>
 //   );
@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     <App />
     {/* <StarRating maxLength={7} />
-    <StarRating maxLength={10} color="red" size={32} />
+    <StarRating maxRating={10} color="red" size={32} />
     <StarRating size={128} setDefault={4} mo />
 
     <Test /> */}
